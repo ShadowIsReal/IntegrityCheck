@@ -1,0 +1,28 @@
+{
+  "name": "IntegrityCheck",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "IntegrityCheck": {
+        "$path": "src/server"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "IntegrityCheck_Client": {
+        "$path": "src/client"
+      }
+    },
+
+    "ReplicatedStorage": {
+      "IntegrityCheck_Shared": {
+        "$className": "Folder",
+
+        "Handshake": {
+          "$className": "RemoteFunction"
+        }
+      }
+    }
+  }
+}
