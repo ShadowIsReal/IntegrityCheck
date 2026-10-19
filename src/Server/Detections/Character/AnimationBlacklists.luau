@@ -5,7 +5,8 @@ local players = game:GetService("Players")
 
 -- animation list
 local blacklistedAnimations = {
-
+    "rbxassetid://148840371", "rbxassetid://5918726674", -- Infinite Yield "bang" command
+    "rbxassetid://72042024", "rbxassetid://698251653", -- Infinite Yield "jerk" command
 }
 
 -- modules
